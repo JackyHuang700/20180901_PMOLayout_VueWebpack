@@ -14168,4 +14168,9 @@ body {
   breakpoint-lg: 992px;
   breakpoint-xl: 1200px;
 }
+
+.dropdown-menuStyle {
+  border: none;
+  border: 2px solid red !important;
+}
 /*# sourceMappingURL=style.css.map */
