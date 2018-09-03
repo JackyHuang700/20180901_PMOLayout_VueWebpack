@@ -14170,7 +14170,46 @@ body {
 }
 
 .dropdown-menuStyle {
-  border: none;
-  border: 2px solid red !important;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+}
+
+.dropdown-item {
+  transition: background-color .3s ease-in-out;
+}
+
+.dropdownStyle.dropdownStyle {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.dropdownStyle.dropdownStyle .nav-link {
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+}
+
+.dropdownStyle.dropdownStyle .nav-link:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.sidebar .nav-dropdown.open.open > a {
+  transition-property: border-left, background-color;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+}
+
+.sidebar .nav-dropdown.open.open.open.open > a {
+  border-left: 3px solid red;
+}
+
+.nav-link, .nav-icon {
+  transition-property: background-color, color;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
 }
 /*# sourceMappingURL=style.css.map */
